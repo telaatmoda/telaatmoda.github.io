@@ -372,8 +372,6 @@ footer {
 
 
 .bg-primary {
-  height: 100%;
-  width: 100%;
   background: $theme-primary;
   background: -webkit-linear-gradient($theme-primary, $theme-secondary);
   background: linear-gradient($theme-primary, $theme-secondary);
@@ -444,10 +442,10 @@ body {
   background: no-repeat center center;
   background-color: #808080;
   background-attachment: scroll;
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
-  background-size: 100%;
-  -o-background-size: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
   margin-bottom: 10px;
   .site-heading, .post-heading, .page-heading {
     padding: 100px 0 50px;
