@@ -1,0 +1,22 @@
+# Site settings
+title: Tela at Moda
+email:
+description: Wedding
+
+baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
+url: "https://telaatmoda.github.io" # the base hostname & protocol for your site
+
+
+google_analytics: "UA-86331249-1"
+addthis_id: ra-58fdea05dbfc3c2f
+disqus_account: tela-at-moda
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
+# Build settings
