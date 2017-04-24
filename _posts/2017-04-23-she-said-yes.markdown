@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "She said YES!"
-subtitle:   "the woman i'll marry"
+subtitle:   "surreal"
 date:       2017-04-23 12:00:00
 author:     "Tela at Moda"
 header-img: "img/stories-bg2.jpg"
