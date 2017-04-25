@@ -29,9 +29,9 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: $theme-primary;
+  color: black;
   &:hover, &:focus {
-    color: #fc20b0;
+    color: #f0b4b4;
   }
 }
 
@@ -47,7 +47,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
+  font-weight: 100;
   letter-spacing: 1px;
 }
 
@@ -74,7 +74,7 @@ p {
       letter-spacing: 1px;
       color: $theme-primary;
       &:hover, &:focus {
-        color: #fc20b0;
+        color: #ffdfdf;
       }
     }
     .navbar-toggle {
@@ -113,21 +113,21 @@ p {
 
 @media (min-width: 768px) {
   .navbar-default {
-    background-color: #ff62c9;
+    background-color: white;
     border-color: gray-darker;
     .navbar-header .navbar-brand {
-      color: white;
+      color: black;
       &:hover, &:focus {
-        color: white;
+        color: #fda3be;
       }
     }
     .nav > li > a {
-      color: rgba(255, 255, 255, 1);
+      color: black;
       &:focus {
         color: rgba(255, 255, 255, 1);
       }
       &:hover, &:focus:hover {
-        color: rgba(255, 255, 255, 0.6);
+        color: #fda3be;
       }
     }
     &.affix {
@@ -136,16 +136,16 @@ p {
       .navbar-header .navbar-brand {
         color: #222222;
         &:hover, &:focus {
-          color: $theme-primary;
+          color: #fda3be;
         }
       }
       .nav > li > a {
-        color: #222222;
+        color: black;
         &:focus {
-          color: #222222;
+          color: white;
         }
         &:hover, &:focus:hover {
-          color: $theme-primary;
+          color: #fda3be;
         }
       }
     }
@@ -157,12 +157,14 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/wedding.jpg"), $head-primary;
-  /* fallback for old browsers */
-  background: url("../img/wedding.jpg"), -webkit-linear-gradient(to left, $head-primary, $head-secondary);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/wedding.jpg"), linear-gradient(to left, $head-primary, $head-secondary);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/img/wedding.jpg);
+  background-size: cover;
+  height: 100vh;
   color: white;
   .header-content {
     text-align: center;
@@ -339,20 +341,21 @@ section {
 
 footer {
   background-color: #FFFFFF;
-  padding: 40px 0;
+  padding: 25px 0;
   text-align: center;
+  font-size: 18px;
   p {
     font-size: 12px;
-    margin: 0;
+    margin-bottom: 5px;
     color: black;
   }
   ul {
-    margin-bottom: 0;
+    margin-bottom: 5px;
     li a {
-      font-size: 12px;
+      font-size: 14px;
       color: black;
       &:hover, &:focus, &:active, &.active {
-        text-decoration: none;
+        text-decoration: underline;
       }
     }
   }
@@ -389,11 +392,10 @@ footer {
 .btn-outline {
   color: white;
   border-color: white;
-  border: 1px solid;
+  background-color: transparent;
   &:hover, &:focus, &:active, &.active {
     color: white;
-    background-color: $theme-primary;
-    border-color: $theme-primary;
+    background-color: $theme-secondary;
   }
 }
 
@@ -518,4 +520,18 @@ body {
       font-size: 30px;
     }
   }
+}
+
+#contact-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/bg-contact.jpg');
+  background-position: center;
+  background-repeat: repeat-x;
+  color: white;
+}
+
+#post-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-position: center;
+  background-repeat: repeat-x;
+  color: white;
 }

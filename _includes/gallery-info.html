@@ -16,14 +16,26 @@
         <script type="text/javascript" src="/js/instafeed.js"></script>
 
 
-<script type="text/javascript">
+<!--<script type="text/javascript">
     var userFeed = new Instafeed({
         get: 'user',
         userId: '294737539',
         accessToken: '294737539.bb22232.6b3aff3474204402bf800421416f6fe9'
     });
     userFeed.run();
+</script>-->
+
+<script type="text/javascript">
+var userFeed = new Instafeed({
+  get: 'user',
+  userId: '3013671773',
+  accessToken: '3013671773.ddf7323.bbe206f620f944c392d5590c55978004',
+  resolution: 'low_resolution'
+});
+
+userFeed.run();
 </script>
+
 
     <div id="instafeed" align="center"></div>
 
