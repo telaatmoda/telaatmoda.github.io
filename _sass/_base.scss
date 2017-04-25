@@ -89,9 +89,9 @@ p {
       text-transform: uppercase;
       letter-spacing: 2px;
       font-size: 11px;
-      color: #222222;
+      color: white;
       &:focus {
-        color: #222222;
+        color: $theme-primary;
       }
       &:hover, &:focus:hover {
         color: $theme-primary;
