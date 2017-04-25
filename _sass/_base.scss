@@ -29,7 +29,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: white;
+  color: $theme-primary;
   &:hover, &:focus {
     color: #f0b4b4;
   }

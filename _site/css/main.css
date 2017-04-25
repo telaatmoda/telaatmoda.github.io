@@ -24,7 +24,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: black; }
+  color: #fda3be; }
   a:hover, a:focus {
     color: #f0b4b4; }
 
@@ -71,7 +71,7 @@ p {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 11px;
-    color: white; }
+    color: black; }
     .navbar-default .nav > li > a:focus {
       color: #fda3be; }
     .navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus:hover {
