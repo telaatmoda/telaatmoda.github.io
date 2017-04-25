@@ -29,7 +29,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: black;
+  color: white;
   &:hover, &:focus {
     color: #f0b4b4;
   }
@@ -89,7 +89,7 @@ p {
       text-transform: uppercase;
       letter-spacing: 2px;
       font-size: 11px;
-      color: white;
+      color: black;
       &:focus {
         color: $theme-primary;
       }
