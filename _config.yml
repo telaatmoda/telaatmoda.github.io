@@ -4,8 +4,8 @@ email:
 description: Wedding
 
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
-url: "https://telaatmoda.github.io" # the base hostname & protocol for your site
-
+url: https://telaatmoda.com # the base hostname & protocol for your site
+enforce_ssl: telaatmoda.com
 
 google_analytics: "UA-86331249-1"
 addthis_id: ra-58fdea05dbfc3c2f
