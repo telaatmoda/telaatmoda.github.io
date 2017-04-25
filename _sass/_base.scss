@@ -524,13 +524,30 @@ body {
 }
 
 #contact-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/bg-contact.jpg');
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  overflow-y: hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/img/bg-contact.jpg);
   background-position: center;
+  background-size: cover;
+  height: 100vh;
   color: white;
 }
 
 #post-header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  overflow-y: hidden;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-position: center;
+  background-size: cover;
+  height: 100vh;
   color: white;
 }
